@@ -20,7 +20,7 @@ The core mathematical operations involved in the cross-correlation algorithm are
 The cross-correlation function $R_{ij}$ is used to determine the similarity between two interrogation windows from the first image $I_1$ and the second image $I_2$. The function is given by:
 
 $$
-R_{ij} = \sum_{m=-M}^{M} \sum_{n=-N}^{N} \left( I_1(x+m, y+n) - \overline{I_1} \right) \left( I_2(x+m+i, y+n+j) - \overline{I_2} \right)
+R_{ij} = \sum_{m=1}^{M} \sum_{n=1}^{N} \left( I_1(x+m, y+n) - \overline{I_1} \right) \left( I_2(x+m+i, y+n+j) - \overline{I_2} \right)
 $$
 
 Where:
