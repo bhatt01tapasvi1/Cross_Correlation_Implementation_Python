@@ -24,7 +24,7 @@ R_{ij} = \sum_{m=-M}^{M} \sum_{n=-N}^{N} \left( I_1(x+m, y+n) - \overline{I_1} \
 $$
 
 Where:
-- \( R_{ij} \) is the cross-correlation function.
+- $R_{ij}$ is the cross-correlation function.
 - \( I_1(x+m, y+n) \) and \( I_2(x+m+i, y+n+j) \) are the intensity values of the first and second images, respectively.
 - \( \overline{I_1} \) and \( \overline{I_2} \) are the mean intensity values of the interrogation windows in images \( I_1 \) and \( I_2 \).
 - \( M \) and \( N \) define the size of the interrogation window.
