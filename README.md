@@ -1,4 +1,4 @@
-[Borrowed from [Farzad Forughi](https://github.com/forughi)]
+[Code borrowed from [Farzad Forughi](https://github.com/forughi); I contributed in building additional explanation, and intuitive understanding.]
 
 ## Cross-Correlation Algorithm for PIV
 
